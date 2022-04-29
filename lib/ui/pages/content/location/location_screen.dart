@@ -10,7 +10,7 @@ class LocationScreen extends StatefulWidget {
 }
 
 class _State extends State<LocationScreen> {
-  final items = List<String>.generate(8, (i) => "Item $i");
+  final items = List<String>.generate(10, (i) => "Item $i");
 
   @override
   Widget build(BuildContext context) {

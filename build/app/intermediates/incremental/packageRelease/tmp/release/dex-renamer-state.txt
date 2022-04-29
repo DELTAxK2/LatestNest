@@ -1,0 +1,4 @@
+#Sat Dec 18 18:59:34 COT 2021
+base.0=E\:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

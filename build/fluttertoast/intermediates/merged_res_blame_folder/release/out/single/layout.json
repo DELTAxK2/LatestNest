@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\toast_custom.xml",
+        "source": "E:\\Program\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.8\\android\\src\\main\\res\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+    }
+]

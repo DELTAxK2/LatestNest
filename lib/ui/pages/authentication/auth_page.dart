@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:red_egresados/ui/pages/authentication/login/login_screen.dart';
-import 'package:red_egresados/ui/pages/authentication/signup/singup_screen.dart';
+import '/ui/pages/authentication/login/login_screen.dart';
+import '/ui/pages/authentication/signup/singup_screen.dart';
 
 class AuthenticationPage extends StatefulWidget {
   const AuthenticationPage({Key? key}) : super(key: key);
@@ -36,8 +36,6 @@ class _State extends State<AuthenticationPage> {
     _content = LoginScreen(onViewSwitch: () => _onItemTapped(2));
   }
 
-  // We create a Scaffold that is used for all the content pages
-  // We only define one AppBar, and one scaffold.
   @override
   Widget build(BuildContext context) {
     return Scaffold(

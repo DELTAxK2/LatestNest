@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:red_egresados/ui/widgets/card.dart';
+import '../../../../../ui/widgets/card.dart';
 
 class LocationCard extends StatelessWidget {
   final String title;
@@ -34,8 +34,8 @@ class LocationCard extends StatelessWidget {
           color: primaryColor,
         ),
       ),
-      // topRightWidget widget as an IconButton or null
 
+      // topRightWidget widget as an IconButton or null
       topRightWidget: onUpdate != null
           ? IconButton(
               icon: Icon(
@@ -54,7 +54,7 @@ class LocationCard extends StatelessWidget {
             children: [
               Text(
                 'Latitud:',
-                style: Theme.of(context).textTheme.headline3,
+                style: Theme.of(context).textTheme.headline3,   //Tamaño de la letra
               ),
               Text(
                 'Longitud:',

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927655763893",
+    "project_id": "latestnest",
+    "storage_bucket": "latestnest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927655763893:android:934f96eff15b4b775c43fc",
+        "android_client_info": {
+          "package_name": "com.example.LatestNest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927655763893-lcj0s82jahf2db78uj9uf2saq09nvsis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAigO54KYakDvuB7nr2OamL9vlykenoeF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927655763893-lcj0s82jahf2db78uj9uf2saq09nvsis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

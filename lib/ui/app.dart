@@ -1,8 +1,8 @@
+import 'package:LatestNest/ui/pages/authentication/auth_page.dart';
+import 'package:LatestNest/ui/pages/content/content_page.dart';
+import 'package:LatestNest/ui/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:red_egresados/ui/pages/authentication/auth_page.dart';
-import 'package:red_egresados/ui/pages/content/content_page.dart';
-import 'package:red_egresados/ui/theme/theme.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Red Egresados MinTIC',
+      title: 'LatestNest',
       // Quitamos el banner DEBUG
       debugShowCheckedModeBanner: false,
       // Establecemos el tema claro
@@ -21,7 +21,7 @@ class App extends StatelessWidget {
       // Por defecto tomara la seleccion del sistema
       themeMode: ThemeMode.system,
       home: const AuthenticationPage(),
-      // We add the two possible routes
+      // Se agregan dos posibles rutas
       routes: {
         '/auth': (context) => const AuthenticationPage(),
         '/content': (context) => const ContentPage(),

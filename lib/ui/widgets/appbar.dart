@@ -1,12 +1,18 @@
+import 'package:LatestNest/controllers/contenido/add_person_controller.dart';
+import 'package:LatestNest/controllers/contenido/delete_person_controller.dart';
+import 'package:LatestNest/ui/pages/content/content_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+final controllerReset = Get.put(AddPersonController());
+final controllerDelete = Get.put(DeletePersonController());
 
 class CustomAppBar extends AppBar {
   final BuildContext context;
   final String picUrl;
   final Widget tile;
   final VoidCallback onSignOff;
-
+  
   // Creating a custom AppBar that extends from Appbar with super();
   CustomAppBar(
       {Key? key,
@@ -15,7 +21,8 @@ class CustomAppBar extends AppBar {
       required this.tile,
       required this.onSignOff})
       : super(
-          key: key,
+
+          key: key,                   //Imagen circular en la barra
           centerTitle: true,
           leading: Center(
             child: CircleAvatar(
@@ -24,9 +31,12 @@ class CustomAppBar extends AppBar {
               backgroundImage: NetworkImage(picUrl),
             ),
           ),
-          title: tile,
+
+          title: tile,              //Título central de la barra (texto) Ubicación /lib/ui/pages/content/content_page.dart
+
           actions: [
-            IconButton(
+
+            IconButton(             //Ícono de modo nocturno
               icon: const Icon(
                 Icons.brightness_4_rounded,
               ),
@@ -35,11 +45,17 @@ class CustomAppBar extends AppBar {
                     Get.isDarkMode ? ThemeMode.light : ThemeMode.dark);
               },
             ),
-            IconButton(
+            
+            IconButton(              //Ícono de logout
               icon: const Icon(
                 Icons.logout,
               ),
-              onPressed: onSignOff,
+              onPressed: (){
+                onSignOff;
+                controllerReset.resetContador();
+                controllerDelete.resetContadorDelete();
+                Get.offNamed('/auth');
+              }
             )
           ],
         );

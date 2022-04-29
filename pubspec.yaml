@@ -1,5 +1,5 @@
-name: red_egresados
-description: Red Egresados - MisionTIC 2022.
+name: LatestNest
+description: MisionTIC 2022.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,17 +23,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get:
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_fonts: ^2.1.0
-  get: ^4.3.8
+  firebase_core:
+  cloud_firestore:
+  firebase_auth:
+  firebase_database:
+  fluttertoast:
 
 dev_dependencies:
+  test:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: 'launcher_icon'
+  image_path: 'E:\Mintic\Ciclo 4\Sprint5\LatestNest\assets\icon\LatestNest.png'
+  adaptive_icon_background: 'E:\Mintic\Ciclo 4\Sprint5\LatestNest\assets\icon\LatestNest.png'
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

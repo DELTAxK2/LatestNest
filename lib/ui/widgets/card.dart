@@ -21,35 +21,35 @@ class AppCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 2,
+      elevation: 2,                     //Sombra de elevación de las tarjetas
       child: Container(
         padding: const EdgeInsets.only(
-            top: 4.0, bottom: 16.0, left: 8.0, right: 8.0),
+            top: 4.0, bottom: 16.0, left: 8.0, right: 8.0),     //Espacio de bordes internos de las tarjetas
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.stretch,   //Alineación de texto a la derecha
           children: [
-            Row(
+            Row(          //Imagen, título e ícono
               children: [
-                topLeftWidget != null
+                topLeftWidget != null     //Imagen de la tarjeta
                     ? topLeftWidget!
                     : const SizedBox(
                         width: 48.0,
                       ),
-                Expanded(
+                Expanded(                 //Título de la tarjeta
                   child: Text(
                     title,
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headline2,
                   ),
                 ),
-                topRightWidget != null
+                topRightWidget != null    //Ícono de la tarjeta
                     ? topRightWidget!
                     : const SizedBox(
                         width: 48.0,
                       ),
               ],
             ),
-            const SizedBox(
+            const SizedBox(               //Altura general de la tarjeta
               height: 6.0,
             ),
             if (content != null)
