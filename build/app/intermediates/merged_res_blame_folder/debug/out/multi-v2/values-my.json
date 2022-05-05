@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+            "outputFile": "E:\\Mintic\\Proyectos\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
             "map": [
                 {
                     "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\001635284da1a814e161dec16473b699\\jetified-play-services-basement-17.1.0\\res\\values-my\\values.xml",

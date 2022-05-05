@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Mintic\\Proyectos\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,830",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,996"
-                    },
-                    "to": {
-                        "startLines": "119,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "8978,9275",
-                        "endLines": "123,126",
-                        "endColumns": "12,12",
-                        "endOffsets": "9270,9439"
-                    }
-                },
                 {
                     "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\66e22c187c58b6b2989b79808da72114\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
@@ -114,7 +95,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "E:\\Mintic\\Proyectos\\LatestNest\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -128,6 +109,25 @@
                         "startOffsets": "8183,8327,8409,8513,8622,8742,8836",
                         "endColumns": "143,81,103,108,119,93,70",
                         "endOffsets": "8322,8404,8508,8617,8737,8831,8902"
+                    }
+                },
+                {
+                    "source": "E:\\Mintic\\Proyectos\\LatestNest\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,830",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,996"
+                    },
+                    "to": {
+                        "startLines": "119,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "8978,9275",
+                        "endLines": "123,126",
+                        "endColumns": "12,12",
+                        "endOffsets": "9270,9439"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Mintic\\Ciclo 4\\Sprint5\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+            "outputFile": "E:\\Mintic\\Proyectos\\LatestNest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\IVAN\\.gradle\\caches\\transforms-2\\files-2.1\\0b5a5b09e796e23878a3527a434a4a63\\core-1.1.0\\res\\values-as\\values-as.xml",
